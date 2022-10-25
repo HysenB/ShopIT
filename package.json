@@ -1,0 +1,21 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "full ecommerce site using MERN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "NODE_ENV=DEVELOPMENT nodemon backend/server",
+    "prod": "NODE_ENV=PRODUCTION nodemon backend/server"
+  },
+  "author": "Hysen Berisha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
